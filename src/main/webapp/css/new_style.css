@@ -392,9 +392,9 @@ input.short { width:100px; }
 .no-icon { padding-left:10px; }
 
 .icon { width:20px; height:20px; display:block; float:left; }
-.error { background:url(icons.png) no-repeat 0 0; }
-.info { background:url(icons.png) no-repeat -25px 0; }
-.arrow { background:url(icons.png) no-repeat -50px 0; }
+.error { background:url(../images/icons.png) no-repeat 0 0; }
+.info { background:url(../images/icons.png) no-repeat -25px 0; }
+.arrow { background:url(../images/icons.png) no-repeat -50px 0; }
 
 .row .message { padding-top:5px; padding-bottom:5px; float:left; width:170px; margin-bottom:0; margin-left:10px; }
 .row .radios .message, .row .checkbox .message { margin-top:5px; margin-left:0; }
@@ -404,7 +404,7 @@ hr { border-top:1px solid #B3B3B3; border-bottom:1px solid #FFF; border-left:0; 
 
 #modal { width:900px; padding-top:0; padding-bottom:15px; background-image:none; position:relative; }
 #modal p { margin-bottom:10px; }
-.close { width:40px; height:40px; background:url(icons.png) no-repeat -70px 0; text-indent:-5000px; }
+.close { width:40px; height:40px; background:url(../images/icons.png) no-repeat -70px 0; text-indent:-5000px; }
 #modal .close { position:absolute; top:-10px; right:-10px; }
 .col { float:left; padding-top:25px; }
 #left-col { width:180px; }
