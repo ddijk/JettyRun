@@ -7,7 +7,7 @@ body {
 
 .logo /* brand logo (make sure you set the width and height too) */
 {
-    background-image: url(suwinet_inkijk_logo_trans.png);
+    background-image: url(../images/suwinet_inkijk_logo_trans.png);
     width: 400px;
     height: 120px;
     background-repeat: no-repeat;
