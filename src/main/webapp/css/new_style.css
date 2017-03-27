@@ -1,24 +1,8 @@
-/* reset */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent
-}
-
 body {
     line-height: 18px;
-}
-
-/**** customisable elements ****/
-body {
-    /* background-image:url(../images/body-bg.png); */ /* background gradient image - must be 100px * 1500px, .png is best */
-    /* background-color:#b3b7bb; */ /* this colour must be set to the finishing colour (at the very bottom) of the gradient */
     background-color: #FFFFFF;
     color: rgb(0, 67, 120); /* default font colour */
+    min-width: 960px
 }
 
 .logo /* brand logo (make sure you set the width and height too) */
@@ -45,13 +29,6 @@ body {
     background-color: #FFFFFF; /* solid colour alternative for browsers that do not support gradients */
 }
 
-/**** end of customisable elements ****/
-
-/* 960 Grid System - http://960.gs/ */
-body {
-    min-width: 960px
-}
-
 .container_12 {
     margin-left: auto;
     margin-right: auto;
@@ -72,14 +49,6 @@ body {
 .container_12 .suffix_8 {
     padding-right: 640px
 }
-.clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0
-}
 
 .container_12:before, .container_12:after {
     content: '.';
@@ -94,10 +63,6 @@ body {
 
 .container_12:after {
     clear: both
-}
-
-.container_12 {
-    zoom: 1
 }
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
@@ -176,5 +141,5 @@ a {
 }
 
 .info {
-    background: url(icons.png) no-repeat -25px 0;
+    background: url(../images/icons.png) no-repeat -25px 0;
 }
